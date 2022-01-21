@@ -7,7 +7,8 @@ build_rules:
       - secret      
     severity:
       - "critical" 
-      - "moderate"
+      - "moderate" 
+    threshold: 180
 #  - id: build-rule-enchalada
 #    finding_types:
 #      - vuln
